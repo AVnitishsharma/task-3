@@ -1,0 +1,125 @@
+@font-face {
+  font-family: logofont;
+  src: url(./Angelos.ttf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+.main{
+  height: 100%;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: black;
+}
+#navbar{
+  width: 100%;
+  color: white;
+  position: relative;
+  top: 1%;
+}
+#navbar #logo{
+  left: 45%;
+  font-size: 25px;
+  position: absolute;
+  color: black;
+  font-family: logofont;
+  font-weight: 200;
+}
+#navbar #one{
+  left: 2%;
+  margin-top: 10px;
+  font-size: 10px;
+  position: absolute;
+  font-weight: 600;
+}
+#navbar #one a{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  /* font-family: serif; */
+}
+#navbar #two{
+  right: 3%;
+  font-size: 10px;
+  margin-top: 10px;
+  position: absolute;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+#navbar #two a{
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  /* font-family: serif; */
+}
+
+.main>h1{
+  padding: 20px;
+  font-size: 200px;
+  top: 5%;
+  left: 5%;
+  position: absolute;
+}
+.main #sidebar{
+  width: 200px;
+  position: absolute;
+  top: 55%;
+  left: 2%;
+  padding: 20px;
+}
+.main #sidebar h3{
+  text-decoration: underline;
+  font-size: 10px;
+  padding-bottom: 5px;
+}
+.main #sidebar p  {
+  font-size: 9px;
+  font-family: serif;
+}
+.main #btmbar{
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  padding: 10px;
+  border: 3px solid #555;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.main #btmbar h3{
+  font-size: 10px;
+  font-weight: 800;
+}
+#img1{
+  position: absolute;
+  top: 55%;
+  right: 27%;
+  height: 180px;
+  border: 2px solid aqua;
+  border-radius: 10px;
+}
+#img2{
+  position: absolute;
+  top: 40%;
+  right: 16%;
+  height: 200px;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+}
+#img3{
+  position: absolute;
+  top: 45%;
+  right: 42%;
+  height: 180px;
+  border: 2px solid black;
+  border-radius: 30px 0px;
+}
